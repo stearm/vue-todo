@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label for="text" /> New item:&nbsp;
+    <label for="text">New item:&nbsp;</label>
     <input id="text" type="text" v-model="text" />
     <button v-on:click="addAndClear(text)" :disabled="text.length === 0">Add</button>
   </div>
