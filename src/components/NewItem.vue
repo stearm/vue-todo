@@ -23,4 +23,21 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  button {
+    background-color: transparent;
+    color: #47b784;
+    border: 2px solid #47b784;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  button:hover:enabled {
+    color: #fff;
+    background-color: #47b784;
+    transition: color .2s linear, background-color .2s linear;
+  }
+  button:disabled {
+    color: #9ea5af;
+    border-color: #9ea5af;
+  }
+</style>

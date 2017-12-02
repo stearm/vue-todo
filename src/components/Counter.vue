@@ -1,7 +1,7 @@
 <template>
   <div>
-    <span>Total: {{total}}</span>
-    <span>Completed: {{completed}}</span>
+    <span>Total: <span class="counter">{{total}}</span></span>
+    <span>Completed: <span class="counter">{{completed}}</span></span>
   </div>
 </template>
 
@@ -11,4 +11,8 @@
   };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .counter {
+    font-weight: bold;
+  }
+</style>
